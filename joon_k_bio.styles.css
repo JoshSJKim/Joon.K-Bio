@@ -7,18 +7,28 @@ body {
     background-color: rgb(9, 50, 137);
     color: rgb(210, 144, 20);
     padding-top: 4rem;
-    text-align: center;
     font-family: 'Sofia Sans', 'Open Sans';
 }
 
 #title {
     padding: 30px;
     font-size: 3em;
+    text-align: center;
 }
 
 #subtitle {
     font-size: 2rem;
     padding-bottom: 30px;
+    text-align: center;
+}
+
+.img-div {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    min-width: 600px;    
+    margin: 0
 }
 
 
