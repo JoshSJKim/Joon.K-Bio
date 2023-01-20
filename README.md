@@ -20,3 +20,22 @@ FCC certification project2
 - When using multiple font names, it should be separated by a '|'.
 - If the font name has a space in it, use a '+' ('font+name') when adding font name to the link element
 - If the font name has a space in it, use single quotes 'font name' when applying to CSS.
+
+## Styling image file using CSS
+
+- Use an img-container div and margin: auto method to center the image.
+
+``` .img-container {
+      width: 100%;
+      text-align: center; /* This will also center the image horizontally*/
+}
+
+    img {
+        margin: auto; /* center the image horizontally and vertically*/
+        width: 100%;
+        max-width: 800px;
+        max-height: 600px;
+        object-fit: cover; /* Ensure that the image fills the entire container while maintaining aspect ratio*/
+    }
+
+- Still need to learn how to properly use properties for margin: auto, flex-box method, as well as the 'position' property.

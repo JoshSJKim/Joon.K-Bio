@@ -22,13 +22,23 @@ body {
     text-align: center;
 }
 
-.img-div {
-    object-fit: cover;
+.img-container {
     width: 100%;
-    height: auto;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+img {
+    margin: auto;
+    width: 100%;
     max-width: 800px;
-    min-width: 600px;    
-    margin: 0
+    max-height: 600px;    
+    object-fit: cover;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    font-style: italic;
 }
 
 
