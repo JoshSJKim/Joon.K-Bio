@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(9, 50, 137);
+    color: rgb(210, 144, 20);
+    padding-top: 4rem;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+}
+
+#title {
+    padding: 30px;
+    font-size: 3em;
+}
+
+#subtitle {
+    font-size: 2rem
+}
+
+
+
