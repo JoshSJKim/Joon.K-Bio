@@ -39,3 +39,8 @@ FCC certification project2
     }
 
 - Still need to learn how to properly use properties for margin: auto, flex-box method, as well as the 'position' property.
+
+## social media icon alignment issue
+
+- 'codepen' icon font seems to have a different width compared to other icons such as 'github', 'twitter', and 'linked-in'.
+- Trying to use flex box to apply 'space-between', 'space-around', but it does not seem to work. 
