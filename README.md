@@ -43,4 +43,6 @@ FCC certification project2
 ## social media icon alignment issue
 
 - 'codepen' icon font seems to have a different width compared to other icons such as 'github', 'twitter', and 'linked-in'.
-- Trying to use flex box to apply 'space-between', 'space-around', but it does not seem to work. 
+- Trying to use flex box to apply 'space-between', 'space-around', but it does not seem to work.
+- PROBLEM SOLVED. Forgot to close the anchor tags, which prevented all styles to be applied. READ THE CODE CAREFULLY. 
+- Although I am surprised that vscode didn't catch the semantic error whilst having linter extensions installed. READ THE CODE CAREFULLY.

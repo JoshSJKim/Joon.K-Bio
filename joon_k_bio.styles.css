@@ -30,16 +30,18 @@ body {
 
 img {
     margin: auto;
+    padding: 0 25px;
     width: 100%;
     max-width: 800px;
     max-height: 600px;    
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 figcaption {
     font-size: 0.9rem;
     font-style: italic;
+    padding: 0 50px;
 }
 
 .timeline {
@@ -65,7 +67,12 @@ ul {
 
 footer {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
+}
+
+#connect {
+    font-size: 1.5rem;
+    font-style: italic;
 }
 
 .social-icons {
@@ -73,10 +80,20 @@ footer {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 20px 0;
+    align-items: center;;
 }
 
 i {
+    font-size: 2rem;
+    color: rgb(233, 211, 191);
+}
+
+#sketch {
+    font-size: 1.1rem;
+    padding: 20px 0;
+    width: 70%;
+    margin: 0 auto;
 }
 
 
